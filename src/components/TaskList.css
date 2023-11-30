@@ -1,0 +1,77 @@
+.task-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+  }
+  
+.task-item-container {
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #ff5252;
+    
+  }
+
+  .task-text{
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .btn_eliminar {
+    margin-right: 5px;
+    margin-bottom: 8px ;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+   }
+   
+   .btn_eliminar:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+   }
+   
+   .btn_eliminar:active {
+    background-color: rgb(255, 56, 86);
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+   }
+
+   .btn_marcar {
+    margin-right: 5px;
+    margin-bottom: 8px ;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color:#c7f464;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: black;
+   }
+   
+   .btn_marcar:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+   }
+   
+   .btn_marcar:active {
+    background-color: rgb(255, 56, 86);
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+   }

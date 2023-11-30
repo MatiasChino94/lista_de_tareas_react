@@ -1,0 +1,14 @@
+.search-input{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 30px ;
+  outline: none;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.search-input:focus-within{
+    border: solid 1px #ccc;
+    box-shadow: 0px 10px 5px rgba( 46, 41, 41, 0.2 );
+}
